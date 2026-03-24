@@ -26,26 +26,11 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
-```
-#include <stdio.h>
+<img width="803" height="495" alt="image" src="https://github.com/user-attachments/assets/4aad0d97-8109-4e0d-bf0f-366d046de65b" />
 
-int main() {
-    // Integer literal
-    printf("Integer: %d\n", 10);
-
-    // Float literal
-    printf("Float: %f\n", 5.75);
-
-    // Character literal
-    printf("Character: %c\n", 'A');
-
-    // String literal
-    printf("String: %s\n", "Hello, World!");
-
-    return 0;
-}
-```
 # Output:
+<img width="821" height="363" alt="image" src="https://github.com/user-attachments/assets/23dfb49c-eae5-4bb3-93ea-9f1413d508a4" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -76,24 +61,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
-```
-#include <stdio.h>
+<img width="812" height="374" alt="image" src="https://github.com/user-attachments/assets/1a953e77-c88e-494d-983c-d7b4d51d76ec" />
 
-// Macro constant
-#define PI 3.14
-
-int main() {
-    // Constant variable
-    const int MAX = 100;
-
-    // Display values
-    printf("Macro Constant PI: %f\n", PI);
-    printf("Constant Variable MAX: %d\n", MAX);
-
-    return 0;
-}
-```
 # Output:
+<img width="834" height="340" alt="image" src="https://github.com/user-attachments/assets/b938fe76-6a1f-4258-a899-bd233e41636c" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -117,24 +89,11 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
-```
-#include <stdio.h>
+<img width="792" height="361" alt="image" src="https://github.com/user-attachments/assets/b9f38c0c-6a86-488e-8b10-e468c3209420" />
 
-// Macro constant
-#define PI 3.14
-
-int main() {
-    // Constant variable
-    const int MAX = 100;
-
-    // Display values
-    printf("Macro Constant PI: %f\n", PI);
-    printf("Constant Variable MAX: %d\n", MAX);
-
-    return 0;
-}
-```
 # Output:
+<img width="820" height="309" alt="image" src="https://github.com/user-attachments/assets/8b26929d-f87a-494c-bcc8-1a5d436103e7" />
+
 # Result: 
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
@@ -173,43 +132,11 @@ int main() {
 ### Step 8:   
   Stop
 # Program:
-```
-#include <stdio.h>
+ <img width="789" height="604" alt="image" src="https://github.com/user-attachments/assets/8257237f-c5d1-4d2e-8813-cf031f61fd8e" />
 
-int main() {
-    int a, b;
-
-    // Input from user
-    printf("Enter two integers: ");
-    scanf("%d %d", &a, &b);
-
-    // Arithmetic Operations
-    printf("\n--- Arithmetic Operations ---\n");
-    printf("Addition: %d\n", a + b);
-    printf("Subtraction: %d\n", a - b);
-    printf("Multiplication: %d\n", a * b);
-
-    if (b != 0) {
-        printf("Division: %d\n", a / b);
-        printf("Remainder: %d\n", a % b);
-    } else {
-        printf("Division and Remainder: Not possible (division by zero)\n");
-    }
-
-    // Bitwise Operations
-    printf("\n--- Bitwise Operations ---\n");
-    printf("AND (a & b): %d\n", a & b);
-    printf("OR (a | b): %d\n", a | b);
-    printf("XOR (a ^ b): %d\n", a ^ b);
-    printf("Left Shift (a << 1): %d\n", a << 1);
-    printf("Right Shift (a >> 1): %d\n", a >> 1);
-    printf("NOT (~a): %d\n", ~a);
-    printf("NOT (~b): %d\n", ~b);
-
-    return 0;
-}
-```
 # Output:
+<img width="819" height="564" alt="image" src="https://github.com/user-attachments/assets/08890ec7-fb1d-4f0b-ab01-c116f8a1a954" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -254,30 +181,13 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
-```
-#include <stdio.h>
+<img width="793" height="536" alt="image" src="https://github.com/user-attachments/assets/1cbc59be-806c-446b-97bd-606b7531dc2f" />
 
-int main() {
-    char ch;
 
-    // Input
-    printf("Enter a character: ");
-    scanf(" %c", &ch);
-
-    // Check using ternary operator
-    (ch >= '0' && ch <= '9') ?
-        printf("Digit\n") :
-    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
-        ((ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'||
-          ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') ?
-            printf("Vowel\n") :
-            printf("Consonant\n")) :
-        printf("Special Symbol\n");
-
-    return 0;
-}
-```
 # Output:
+<img width="839" height="102" alt="image" src="https://github.com/user-attachments/assets/81643164-d1ab-48b1-9728-c767128ad93b" />
+
+<img width="820" height="112" alt="image" src="https://github.com/user-attachments/assets/f4e259f6-06a0-4c41-978c-70f165b857ba" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
